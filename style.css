@@ -1,0 +1,69 @@
+ .gif-container {
+     width: 100px;
+     position: relative;
+     padding-top: 20%;
+     border: 4px solid rgba(98, 91, 91);
+     margin: auto;
+     width: 30%;
+ }
+ 
+ .gif-container a {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .body {
+     display: flex;
+     flex-direction: column;
+     background-image: url(./img/bg-3.jpg);
+     width: 100%;
+     height: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ 
+ .name {
+     color: rgba(6, 6, 22, 0.775);
+     font-size: 30px;
+     text-decoration: underline;
+     padding-top: 40px;
+     font-weight: 700;
+     font-family: 'Zen Tokyo Zoo', cursive;
+ }
+ 
+ .logo {
+     display: inline-block;
+     position: absolute;
+     top: 0px;
+     left: 10px;
+     margin: 2px 2px;
+     text-align: center;
+     border: 2px solid rgb(128, 42, 42);
+ }
+ 
+ .char-name {
+     color: rgb(0, 0, 0);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ 
+ #bottom {
+     position: fixed;
+     bottom: 20px;
+     right: 30px;
+     z-index: 99;
+     font-size: 18px;
+     background-color: red;
+     color: rgb(198, 102, 102);
+     cursor: pointer;
+     padding: 15px;
+     border-radius: 4px;
+ }
+ 
+ #bottom:hover {
+     background-color: rgb(233, 140, 140);
+ }
